@@ -1,4 +1,4 @@
-#include "TransactionBlock.h"
+#include "../include/TransactionBlock.h"
 
 TransactionBlock::TransactionBlock(const std::vector<Transaction*>& transactions)
 {

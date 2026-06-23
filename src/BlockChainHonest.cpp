@@ -1,6 +1,6 @@
-#include "BlockChainHonest.h"
-#include "TransactionBlock.h"
-#include "CRF.h"
+#include "../include/BlockChainHonest.h"
+#include "../include/TransactionBlock.h"
+#include "../include/CRF.h"
 
 const std::string
 BlockChainHonest::START_STRING = "DSCoin";

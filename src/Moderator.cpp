@@ -1,8 +1,8 @@
-#include "Moderator.h"
+#include "../include/Moderator.h"
 
-#include "Member.h"
-#include "Transaction.h"
-#include "TransactionBlock.h"
+#include "../include/Member.h"
+#include "../include/Transaction.h"
+#include "../include/TransactionBlock.h"
 
 #include <vector>
 #include <string>

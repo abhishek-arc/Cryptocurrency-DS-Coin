@@ -1,6 +1,6 @@
-#include "MerkleTree.h"
-#include "Member.h"
-#include "TransactionBlock.h"
+#include "../include/MerkleTree.h"
+#include "../include/Member.h"
+#include "../include/TransactionBlock.h"
 
 MerkleTree::MerkleTree()
 {

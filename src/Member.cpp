@@ -1,13 +1,13 @@
-#include "Member.h"
+#include "../include/Member.h"
 
 
-#include "Transaction.h"
-#include "TransactionBlock.h"
-#include "DSCoinHonest.h"
-#include "MerkleTree.h"
-#include "TreeNode.h"
-#include "MissingTransactionException.h"
-#include "DSCoinHonest.h"
+#include "../include/Transaction.h"
+#include "../include/TransactionBlock.h"
+#include "../include/DSCoinHonest.h"
+#include "../include/MerkleTree.h"
+#include "../include/TreeNode.h"
+#include "../include/MissingTransactionException.h"
+#include "../include/DSCoinHonest.h"
 
 #include <string>
 #include <vector>

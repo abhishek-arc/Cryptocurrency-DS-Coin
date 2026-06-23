@@ -1,4 +1,4 @@
-#include "CRF.h"
+#include "../include/CRF.h"
 
 #include <openssl/sha.h>
 
