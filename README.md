@@ -44,39 +44,52 @@ DSCOIN_FINAL/
 │   ├── Transaction.cpp
 │   ├── TransactionBlock.cpp
 │   ├── TransactionQueue.cpp
-│   ├── TreeNode.cpp
+│   └── TreeNode.cpp
+│
+├── test/
+│   ├── m.cpp
 │   └── main.cpp
 │
 └── README.md
+
 ```
 
 ## Core Components
 
 ### Transaction
+
 Represents the transfer of a coin between members.
 
 ### Transaction Queue
+
 Stores pending transactions waiting to be mined into a block.
 
 ### Transaction Block
+
 Contains a fixed number of transactions along with:
+
 - Previous block hash
 - Merkle root
 - Block digest
 
 ### Merkle Tree
+
 Used to efficiently verify transaction integrity within a block.
 
 ### Blockchain
+
 Maintains an ordered sequence of transaction blocks linked through cryptographic hashes.
 
 ### Member
+
 Represents a user in the DSCoin network and maintains coin ownership information.
 
 ### Moderator
+
 Initializes the system and distributes initial coins among members.
 
 ### CRF
+
 Provides cryptographic hash functionality used throughout the blockchain.
 
 ## Technologies Used
